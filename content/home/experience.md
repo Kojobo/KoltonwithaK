@@ -22,13 +22,27 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
-    date_end: ''
+  - title: Director of Therapy
+    company: Arbor Rehabilitation & Healthcare Inc.
+    company_url: 'https://arborrehab.com/'
+    company_logo: org-arbor
+    location: Cleveland, OH
+    date_start: '2020-01-01'
+    date_end: '2021-08-01'
+    description: |2-
+        Responsibilities include:
+        
+        * This
+        * That
+        * Other thing 
+        
+  - title: Internal Consultant Intern
+    company: Anthem, Inc. 
+    company_url: 'https://www.anthem.com/'
+    company_logo: org-antheminc
+    location: Denver, CO
+    date_start: '2018-05-01'
+    date_end: '2018-08-15'
     description: |2-
         Responsibilities include:
         
@@ -36,14 +50,14 @@ experience:
         * Modelling
         * Deploying
         
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+  - title: Legal Department Intern
+    company: CareSource
+    company_url: 'https://www.caresource.com/'
+    company_logo: org-caresource
+    location: Dayton, OH
+    date_start: '2017-05-01'
+    date_end: '2017-08-15'
+    description: Various projects covering a diverse range of legal topics. 
 
 design:
   columns: '2'
